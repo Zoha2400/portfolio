@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +31,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.brend {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.anim {
+  transition-duration: 100s !important;
 }

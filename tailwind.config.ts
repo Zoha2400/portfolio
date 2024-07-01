@@ -13,8 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        bounceSlow: "bounceSlow 5s infinite",
+      },
+      keyframes: {
+        bounceSlow: {
+          "0%, 100%": { transform: "translateY(-25%)" },
+          "50%": { transform: "translateY(0)" },
+        },
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
