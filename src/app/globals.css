@@ -49,6 +49,7 @@ body {
   background: linear-gradient(to right, #333 0%, #444 20%, #333 40%, #333 100%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .tv-lines {
