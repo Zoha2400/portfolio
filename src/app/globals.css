@@ -46,9 +46,15 @@ body {
 .shimmer {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #333 0%, #444 20%, #333 40%, #333 100%);
+  background: linear-gradient(
+    to right,
+    #333333d2 0%,
+    #414141 20%,
+    #333333d2 40%,
+    #333333d2 100%
+  );
   background-size: 200% 100%;
-  animation: shimmer 1.5s infinite;
+  animation: shimmer 2s infinite;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -76,9 +82,9 @@ body {
 
 @keyframes shimmer {
   0% {
-    background-position: -200% 0;
+    background-position: -100% 0;
   }
   100% {
-    background-position: 200% 0;
+    background-position: 100% 0;
   }
 }

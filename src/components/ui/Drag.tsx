@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import brand from "../../img/brand.png";
+import brand from "../../../public/brand.png";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";

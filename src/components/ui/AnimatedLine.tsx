@@ -2,6 +2,8 @@
 
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import Image from "next/image";
+import consImage from "../../../public/IMG_8851.JPG";
 
 function AnimatedLine() {
   const el = useRef(null);
@@ -17,7 +19,7 @@ function AnimatedLine() {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Hello there, on my website<br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to get a website<br/>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can find my contacts down'<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;);<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;, [money]);<br/>
         });<br/>
 `,
       ],
@@ -36,6 +38,14 @@ function AnimatedLine() {
         <span ref={el} />
       </div>
       <div className="tv-lines absolute"></div>
+      <div className="absolute w-full overflow-hidden flex justify-center items-center -z-20">
+        <Image
+          src={consImage}
+          alt="Phone of Console"
+          objectFit="contain"
+          className="w-full h-auto"
+        />
+      </div>
     </div>
   );
 }
