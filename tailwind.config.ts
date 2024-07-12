@@ -22,6 +22,10 @@ const config: Config = {
           "50%": { transform: "translateY(0)" },
         },
       },
+      boxShadow: {
+        "inner-lg": "inset 0 10px 15px rgba(0, 0, 0, 0.5)",
+        "inner-custom": "inset 0 0 40px 0 #000",
+      },
     },
   },
   plugins: [],

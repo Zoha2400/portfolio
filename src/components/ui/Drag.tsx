@@ -1,8 +1,26 @@
+"use client";
+
 import Image from "next/image";
-import brand from "../../img/brand.PNG";
+import brand from "../../img/brand.png";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 
 function Drag() {
+  // const el = useRef(null);
+
+  // useEffect((): void => {
+  //   const options = {
+  //     strings: ["Пример анимации текста, как в консоли."],
+  //     typeSpeed: 100, // Скорость печати (мс)
+  //   };
+  //   const typed = new Typed(el.current, options);
+
+  //   return () => {
+  //     typed.destroy();
+  //   };
+  // }, []);
+
   return (
     <div className="w-full h-52 bg-red-200 container-wrap flex justify-center items-center">
       <div className="mt-10 w-11/12">
@@ -26,6 +44,9 @@ function Drag() {
               <Link href={"/takedzo"}>'bout me</Link>
 
               <Link href={"/stack"}>website</Link>
+              {/* <div className="console">
+                <span ref={el} />
+              </div> */}
             </div>
           </nav>
         </header>
