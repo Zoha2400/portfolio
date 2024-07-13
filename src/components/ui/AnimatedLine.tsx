@@ -16,10 +16,10 @@ function AnimatedLine() {
         <br/>
         Zoha.createWebSite(() => {<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;return jsonify(<br/>      
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Hello there, on my website<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to get a website<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can find my contacts down'<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;, [money]);<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Hello there! Welcome to my website.<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you're looking for a unique web experience,<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you're in the right place.'<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;, [Pay me money - get your website :)]);<br/>
         });<br/>
 `,
       ],

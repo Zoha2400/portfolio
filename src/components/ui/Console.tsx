@@ -30,7 +30,7 @@ function Console() {
           src={consImage}
           alt="Phone of Console"
           objectFit="contain"
-          className={`transition duration-75 h-auto w-96 ease-in-out scale-x-[-1] ${
+          className={`transition duration-100 h-auto w-96 ease-in-out scale-x-[-1] ${
             isDarkMode ? "filter brightness-50" : "filter brightness-100"
           }`}
         />
