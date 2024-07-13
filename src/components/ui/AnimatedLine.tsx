@@ -34,7 +34,7 @@ function AnimatedLine() {
 
   return (
     <div className="w-1/2 rounded-2xl overflow-hidden h-96 shimmer-wrapper relative flex shadow-inner-custom box-border">
-      <div className="shimmer absolute -z-10 text-green-300 font-bold text-2xl box-border p-8">
+      <div className="shimmer absolute -z-10 text-green-400 font-bold text-2xl box-border p-8">
         <span ref={el} />
       </div>
       <div className="tv-lines absolute"></div>
