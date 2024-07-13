@@ -2,6 +2,7 @@ import Statues from "@/components/Statues";
 import AnimatedLine from "@/components/ui/AnimatedLine";
 import Console from "@/components/ui/Console";
 import Drag from "@/components/ui/Drag";
+import Projects from "@/components/ui/Projects";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Drag />
       <Console />
       <Statues />
+      <Projects />
     </div>
   );
 }
