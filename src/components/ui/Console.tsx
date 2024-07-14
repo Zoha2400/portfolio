@@ -38,11 +38,11 @@ function Console() {
         <div className="absolute flex justify-center items-center w-full h-full">
           <div className="flex flex-col">
             <p className="text-4xl font-extralight text-blue-100 italic">
-              Desing?
+              Design?
             </p>
             <p className="text-xl font-mono italic">
               Surreal, functional, playful - <br /> experience out absurd
-              desing.
+              design.
             </p>
           </div>
         </div>
