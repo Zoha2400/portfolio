@@ -44,6 +44,8 @@ function Drag() {
               <Link href={"/takedzo"}>'bout me</Link>
 
               <Link href={"/stack"}>website</Link>
+              <Link href={"/resume"}>create a resume</Link>
+
               {/* <div className="console">
                 <span ref={el} />
               </div> */}

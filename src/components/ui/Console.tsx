@@ -40,7 +40,7 @@ function Console() {
             <p className="text-4xl font-extralight text-blue-100 italic">
               Design?
             </p>
-            <p className="text-xl font-mono italic">
+            <p className="text-xl font-mono italic text-white">
               Surreal, functional, playful - <br /> experience out absurd
               design.
             </p>
