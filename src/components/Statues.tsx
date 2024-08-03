@@ -7,7 +7,7 @@ function Statues() {
           <Image
             src="/simone.png"
             alt="Phone of Console"
-            className={`transition w-auto h-96 scale-x-[-1] z-20`}
+            className={`transition w-auto h-96 scale-x-[-1] absolute z-20`}
             objectFit="contain"
             width={500}
             height={300}
