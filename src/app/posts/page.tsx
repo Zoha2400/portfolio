@@ -9,6 +9,10 @@ function page() {
       </section>
       <div className="post-area mt-8 flex flex-col gap-4">
         <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
     </div>
   );

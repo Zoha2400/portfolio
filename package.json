@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.4",
+    "@stitches/react": "^1.2.8",
     "github-calendar": "^2.3.4",
     "next": "14.2.4",
     "react": "^18",
