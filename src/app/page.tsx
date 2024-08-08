@@ -6,8 +6,7 @@ import Projects from "@/components/ui/Projects";
 
 export default function Home() {
   return (
-    <div>
-      <Drag />
+    <div className=" overflow-hidden">
       <Console />
       <Statues />
       <Projects />
