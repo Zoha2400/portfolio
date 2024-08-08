@@ -4,7 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 
-body{
+body {
   background-color: black !important;
 }
 
@@ -62,4 +62,25 @@ body{
   100% {
     background-position: 100% 0;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 5px; /* Height of the scrollbar (for horizontal scrollbars) */
+}
+
+/* The draggable part of the scrollbar */
+
+body::-webkit-scrollbar-thumb {
+  background-color: white; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: black; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners of the track */
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: black; /* Color of the scrollbar corner */
 }
