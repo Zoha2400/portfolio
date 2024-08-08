@@ -8,10 +8,7 @@ function Statues() {
   return (
     <div className="flex justify-center items-center">
       <div className="w-full flex justify-between relative mt-40 mb-40 p-2 bg-black ">
-        <animated.div
-          className="imgs flex justify-center"
-          style={{ opacity: scrollYProgress }}
-        >
+        <div className="imgs flex justify-center">
           <Image
             src="/simone.png"
             alt="Phone of Console"
@@ -36,11 +33,8 @@ function Statues() {
             width={500}
             height={300}
           />
-        </animated.div>
-        <animated.div
-          className="text h-96 relative flex flex-col justify-between"
-          style={{ opacity: scrollYProgress }}
-        >
+        </div>
+        <div className="text h-96 relative flex flex-col justify-between">
           <p className="text-6xl text-gray-900 absolute z-0 m-40">
             Driven by the absurd, crafting digital wonders.
           </p>
@@ -50,7 +44,7 @@ function Statues() {
           <p className="text-6xl z-20 text-white font-bold">
             Driven by the absurd, crafting digital wonders.
           </p>
-        </animated.div>
+        </div>
       </div>
     </div>
   );

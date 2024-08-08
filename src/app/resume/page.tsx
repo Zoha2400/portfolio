@@ -28,10 +28,10 @@ export default function Page() {
   };
 
   return (
-    <div className="w-full min-h-screen  flex justify-center items-center bg-gradient-to-r from-purple-800 to-blue-900 text-white">
+    <div className="w-full min-h-screen flex justify-center items-center bg-gradient-to-r from-purple-800 to-blue-900 text-white">
       <form
         onSubmit={handleSubmit}
-        className="bg-gray-900 p-8 rounded-lg shadow-lg w-full m-4 max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-4"
+        className="bg-gray-900 p-8 rounded-lg shadow-current w-full m-4 max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-4"
       >
         <h1 className="text-2xl mb-6 font-bold col-span-full">
           Resume Information
