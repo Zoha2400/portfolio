@@ -13,7 +13,7 @@ export default function Page() {
     phone: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: Object) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
