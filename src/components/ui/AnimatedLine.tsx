@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Image from "next/image";
-import consImage from "../../../public/IMG_8851.JPG";
+import consImage from "../../../public/IMG_8851.jpg";
 
 function AnimatedLine() {
   const el = useRef(null);

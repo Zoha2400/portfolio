@@ -1,5 +1,6 @@
 "use client";
 
+import { useScroll, animated } from "@react-spring/web";
 import Image from "next/image";
 
 import { useState, useEffect } from "react";
@@ -18,6 +19,8 @@ const textArray = [
 function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const { scrollYProgress } = useScroll();
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % textArray.length);
@@ -26,7 +29,10 @@ function Projects() {
     return () => clearInterval(intervalId);
   }, []);
   return (
-    <div className="flex justify-between pl-16 pr-16">
+    <animated.div
+      className="flex justify-between pl-16 pr-16"
+      style={{ opacity: scrollYProgress }}
+    >
       <div className="text flex flex-col *:duration-75">
         {textArray.map((text, index) => (
           <p
@@ -47,7 +53,7 @@ function Projects() {
         width={500}
         height={300}
       />
-    </div>
+    </animated.div>
   );
 }
 

@@ -2,9 +2,13 @@
 import { useEffect, useState } from "react";
 import AnimatedLine from "./AnimatedLine";
 import Image from "next/image";
-import consImage from "../../../public/IMG_0020.JPG";
+import consImage from "../../../public/IMG_0020.jpg";
+
+import { useScroll, animated } from "@react-spring/web";
 
 function Console() {
+  const { scrollYProgress } = useScroll();
+
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
