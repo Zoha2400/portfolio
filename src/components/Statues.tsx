@@ -7,7 +7,7 @@ function Statues() {
   const { scrollYProgress } = useScroll();
   return (
     <div className="flex justify-center items-center">
-      <div className="w-full flex justify-between relative mt-40 mb-40 p-2 bg-black ">
+      <div className="w-full flex justify-between relative mt-40 mb-40 p-2 pb-0 ">
         <div className="imgs flex justify-center">
           <Image
             src="/simone.png"

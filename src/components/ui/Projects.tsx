@@ -30,7 +30,7 @@ function Projects() {
   }, []);
   return (
     <animated.div
-      className="flex justify-between pl-16 pr-16"
+      className="flex justify-between pt-10 pl-16 pr-16 bg-gradient-to-r from-red-300 to-blue-400"
       style={{ opacity: scrollYProgress }}
     >
       <div className="text flex flex-col *:duration-75">
