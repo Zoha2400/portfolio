@@ -13,11 +13,11 @@ const Post: React.FC<PostProps> = ({
 
   const styles = useSpring({
     from: {
-      y: "10%",
+      x: "10%",
       opacity: 0,
     },
     to: {
-      y: mounted ? "0%" : "10%",
+      x: mounted ? "0%" : "10%",
       opacity: mounted ? 1 : 0,
     },
   });

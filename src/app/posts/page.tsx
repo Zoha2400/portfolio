@@ -14,11 +14,11 @@ function page() {
 
   const styles = useSpring({
     from: {
-      x: "5%",
+      y: "5%",
       opacity: 0,
     },
     to: {
-      x: mounted ? "0%" : "10%",
+      y: mounted ? "0%" : "10%",
       opacity: mounted ? 1 : 0,
     },
   });
