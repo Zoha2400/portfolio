@@ -1,4 +1,4 @@
-import Statues from "@/components/Statues";
+import Statues from "@/components/ui/Statues";
 import AnimatedLine from "@/components/ui/AnimatedLine";
 import Console from "@/components/ui/Console";
 import Drag from "@/components/ui/Drag";

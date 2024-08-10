@@ -64,6 +64,10 @@ body {
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar {
   width: 5px; /* Width of the scrollbar */
   height: 5px; /* Height of the scrollbar (for horizontal scrollbars) */

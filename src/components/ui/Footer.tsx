@@ -10,6 +10,7 @@ function Footer() {
     const options = {
       strings: ["I won't pay for your visit to the psychologist..."],
       typeSpeed: 50, // Скорость печати (мс)
+      showCursor: false,
     };
     const typed = new Typed(el.current, options);
 
@@ -18,8 +19,10 @@ function Footer() {
     };
   }, []);
   return (
-    <div className="w-full h-24 bg-zinc-900 font-mono pl-8 pr-8 flex items-center gap-5 text-white">
-      <span ref={el} />
+    <div className="w-full h-24 bg-zinc-900 font-mono pl-8 pr-8 flex justify-between items-center gap-5 text-white">
+      <span className="" ref={el} />
+
+      <span>2024</span>
     </div>
   );
 }
