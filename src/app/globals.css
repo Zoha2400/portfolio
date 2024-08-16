@@ -88,3 +88,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-corner {
   background-color: black; /* Color of the scrollbar corner */
 }
+
+d {
+  background-color: #1a6335;
+}

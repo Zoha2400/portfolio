@@ -15,9 +15,11 @@
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
+    "three": "^0.167.1",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
+    "@iconify/react": "^5.0.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
