@@ -34,7 +34,9 @@ function Drag() {
                   <span className="text-purple-950 -ml-2">Portfolio</span>
                 </p>
                 <Image
-                  src={brand}
+                  src="/brand.png"
+                  width={500}
+                  height={500}
                   alt="Brand"
                   className="absolute w-40 h-auto animate-bounceSlow"
                 />
