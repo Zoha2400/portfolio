@@ -1,5 +1,5 @@
 import axios from "axios";
-import { GetPostsResponse } from "../app/types.d.ts";
+import { GetPostsResponse } from "../app/types";
 
 export const baseURL = "http://localhost:3001/";
 
