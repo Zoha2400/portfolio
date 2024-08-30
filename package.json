@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-spring/web": "^9.7.4",
     "@stitches/react": "^1.2.8",
+    "axios": "^1.7.5",
     "github-calendar": "^2.3.4",
     "next": "14.2.4",
     "react": "^18",

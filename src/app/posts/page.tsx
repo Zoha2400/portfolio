@@ -2,6 +2,9 @@
 
 import Post from "@/components/ui/Post";
 import { useEffect, useState } from "react";
+import axios from "axios";
+
+import { getPosts } from "../api";
 
 import { useSpring, animated } from "@react-spring/web";
 
@@ -10,6 +13,20 @@ interface Post {
 }
 
 function page() {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    getPosts()
+      .then((data) => data.json()) // Предполагается, что `getPosts` возвращает объект `response`
+      .then((data) => {
+        setPosts(data);
+        console.log("Posts fetched successfully:", data);
+      })
+      .catch((error) => {
+        console.error("Error fetching posts:", error);
+      });
+  }, []);
+
   const [mounted, setMounted] = useState(false);
 
   const styles = useSpring({

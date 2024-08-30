@@ -14,7 +14,7 @@ const stackEls = [
   { icon_name: "devicon:tailwindcss", name: "Tailwind", color: "#103da0" },
   { icon_name: "devicon:github", name: "GitHub", color: "rgb(68, 68, 68)" },
   { icon_name: "devicon:git", name: "Git", color: "rgb(102, 44, 0)" },
-  { icon_name: "devicon:jira", name: "Jira", color: "#004781" },
+  { icon_name: "devicon:jira", name: "Jira", color: "rgb(0, 39, 80)" },
   { icon_name: "devicon:docker", name: "Docker", color: "#004781" },
   { icon_name: "devicon:kubernetes", name: "Kubernetes", color: "#004781" },
   { icon_name: "devicon:nodejs", name: "Node.js", color: "#1a6335" },
