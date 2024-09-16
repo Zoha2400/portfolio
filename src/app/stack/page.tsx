@@ -1,4 +1,5 @@
 import StackEl from "@/components/ui/StackEl";
+import Image from "next/image";
 
 const stackEls = [
   { icon_name: "devicon:react", name: "React", color: "#4b60ce" },
@@ -69,6 +70,41 @@ function Page() {
             <StackEl icon_name={el.icon_name} name={el.name} color={el.color} />
           );
         })}
+
+        <div className="w-full h-96 relative bg-[url('/makima.jpg')] bg-center bg-cover overflow-hidden rounded-xl mt-5">
+          {/* <Image
+            className="absolute -z-10 h-fll w-full "
+            src="/makima.jpg?v=2"
+            alt="Background Image"
+            width={500}
+            height={500}
+            quality={100}
+            unoptimized
+          /> */}
+          <div className="bg-white/10 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-[7.5px] rounded-lg border border-white/20 p-8 text-white max-w-4xl mx-auto mt-10 shadow-lg">
+            <h2 className="text-lg font-bold mb-4">Contact me now!</h2>
+            <div className="space-x-4">
+              <a
+                href="#"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Telegram
+              </a>
+              <a
+                href="#"
+                className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+              >
+                Twitter
+              </a>
+              <a
+                href="#"
+                className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Discord
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
