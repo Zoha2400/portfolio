@@ -81,7 +81,7 @@ function Page() {
             quality={100}
             unoptimized
           /> */}
-          <div className="bg-white/10 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] backdrop-blur-[7.5px] rounded-lg border border-white/20 p-8 text-white max-w-4xl mx-auto mt-10 shadow-lg">
+          <div className="bg-white/10 backdrop-blur-[7.5px] rounded-lg border border-white/20 p-8 text-white max-w-4xl mx-auto mt-10 shadow-lg">
             <h2 className="text-lg font-bold mb-4">Contact me now!</h2>
             <div className="space-x-4">
               <a
