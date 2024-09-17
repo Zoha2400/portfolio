@@ -1,6 +1,8 @@
 import StackEl from "@/components/ui/StackEl";
 import Image from "next/image";
 
+import { Icon } from "@iconify/react/dist/iconify.js";
+
 const stackEls = [
   { icon_name: "devicon:react", name: "React", color: "#4b60ce" },
   { icon_name: "devicon:nextjs", name: "Next.js", color: "#252525" },
@@ -71,7 +73,7 @@ function Page() {
           );
         })}
 
-        <div className="w-full h-96 relative bg-[url('/makima.jpg')] bg-center bg-cover overflow-hidden rounded-xl mt-5">
+        <div className="w-full h-[30rem] relative bg-[url('/makima.jpg')] bg-center bg-cover overflow-hidden rounded-3xl mt-5">
           {/* <Image
             className="absolute -z-10 h-fll w-full "
             src="/makima.jpg?v=2"
@@ -81,26 +83,39 @@ function Page() {
             quality={100}
             unoptimized
           /> */}
-          <div className="bg-white/10 backdrop-blur-[7.5px] rounded-lg border border-white/20 p-8 text-white max-w-4xl mx-auto mt-10 shadow-lg">
-            <h2 className="text-lg font-bold mb-4">Contact me now!</h2>
-            <div className="space-x-4">
+          <div className="bg-[#5416ff]/10 m-10 backdrop-blur-[7.5px] relative rounded-2xl overflow-hidden border border-white/20 p-6 text-white max-w-4xl mx-auto mt-10 w-3/4 md:w-1/2 shadow-2xl">
+            <div className="design absolute w-60 h-60 top-0 right-0">
+              <div className="animate-ping duration-75 sun absolute w-20 z-50 h-20 -top-10 -right-10 bg-orange-100 rounded-full"></div>
+              <div className="sun absolute w-20 z-50 h-20 -top-10 -right-10 bg-orange-100 rounded-full"></div>
+
+              <div className="f1 absolute w-32 h-32 z-40 -top-16 -right-16 bg-orange-300 rounded-full"></div>
+              <div className="f2 absolute w-40 h-40 z-30 -top-20 -right-20 bg-orange-400 rounded-full"></div>
+              <div className="f3 absolute w-48 h-48 z-20 -top-24 -right-24 bg-purple-800 rounded-full"></div>
+              <div className=" absolute w-64 h-64 z-10 -top-32 -right-32 bg-purple-700 rounded-full">
+                <div className="orbitalball w-10 h-10 animate-bounceSlow bg-white rounded-full absolute bottom-0 animation-spin transform translate-x-neg-50 shadow-inner-custom-ball"></div>
+              </div>
+              <div className="oxygen1 absolute w-80 h-80 z-0 -top-40 -right-40 bg-purple-900 rounded-full"></div>
+            </div>
+
+            <h2 className=" font-bold text-xl mb-4">Contact me now!</h2>
+            <div className="flex gap-2">
               <a
                 href="#"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                className="w-10 h-10 bg-[#43b7f3] text-2xl flex justify-center items-center text-white rounded"
               >
-                Telegram
+                <Icon icon="icon-park-outline:telegram" />
               </a>
               <a
                 href="#"
-                className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+                className="w-10 h-10 bg-[#5865f2] text-2xl flex justify-center items-center text-white rounded"
               >
-                Twitter
+                <Icon icon="carbon:logo-discord" />
               </a>
               <a
                 href="#"
-                className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded"
+                className="w-10 h-10 bg-[#000000] text-2xl flex justify-center items-center text-white rounded"
               >
-                Discord
+                <Icon icon="fa6-brands:x-twitter" />
               </a>
             </div>
           </div>
