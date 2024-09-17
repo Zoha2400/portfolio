@@ -83,7 +83,7 @@ function Page() {
             quality={100}
             unoptimized
           /> */}
-          <div className="bg-[#5416ff]/10 m-10 backdrop-blur-[7.5px] relative rounded-2xl overflow-hidden border border-white/20 p-6 text-white max-w-4xl mx-auto mt-10 w-3/4 md:w-1/2 shadow-2xl">
+          <div className="bg-[#ffffff]/25 m-10 backdrop-blur-[7.5px] relative rounded-2xl overflow-hidden border border-white/20 p-6 text-white max-w-4xl mx-auto mt-10 w-3/4 md:w-4/12 shadow-2xl">
             <div className="design absolute w-60 h-60 top-0 right-0">
               <div className="animate-ping duration-75 sun absolute w-20 z-50 h-20 -top-10 -right-10 bg-orange-100 rounded-full"></div>
               <div className="sun absolute w-20 z-50 h-20 -top-10 -right-10 bg-orange-100 rounded-full"></div>
