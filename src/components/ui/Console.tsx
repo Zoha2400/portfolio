@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import AnimatedLine from "./AnimatedLine";
 import Image from "next/image";
-import consImage from "../../../public/IMG_0020.jpg";
+
 
 import { useScroll, animated } from "@react-spring/web";
 
@@ -23,7 +23,9 @@ function Console() {
       <AnimatedLine />
       <section className="flex justify-between relative w-1/2">
         <Image
-          src={consImage}
+          src={'/IMG_0020.jpg'}
+          width={500}
+          height={500}
           alt="Phone of Console"
           objectFit="contain"
           className={`transition duration-75 h-auto w-96 ease-in-out ${
@@ -31,7 +33,9 @@ function Console() {
           }`}
         />
         <Image
-          src={consImage}
+          src={'/IMG_0020.jpg'}
+          width={500}
+          height={500}
           alt="Phone of Console"
           objectFit="contain"
           className={`transition duration-100 h-auto w-96 ease-in-out scale-x-[-1] ${

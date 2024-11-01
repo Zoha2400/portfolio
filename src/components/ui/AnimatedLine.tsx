@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import Image from "next/image";
-import consImage from "../../../public/IMG_8851.jpg";
+
 
 function AnimatedLine() {
   const el = useRef(null);
@@ -40,7 +40,9 @@ function AnimatedLine() {
       <div className="tv-lines absolute"></div>
       <div className="absolute w-full overflow-hidden flex justify-center items-center -z-20">
         <Image
-          src={consImage}
+          src={'/IMG_8851.jpg'}
+          width={500}
+          height={500}
           alt="Phone of Console"
           objectFit="contain"
           className="w-full h-auto"
