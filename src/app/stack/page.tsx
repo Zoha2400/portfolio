@@ -53,7 +53,7 @@ const stackEls = [
   { icon_name: "devicon:cplusplus", name: "C++", color: "#004781" },
   { icon_name: "devicon:bun", name: "BunJs", color: "#004781" },
   { icon_name: "devicon:figma", name: "Figma", color: "#004781" },
-  { icon_name: "devicon:photoshop", name: "Photoshop", color: "#004781" },
+  // { icon_name: "devicon:photoshop", name: "Photoshop", color: "#004781" },
   { icon_name: "devicon:grpc", name: "gRPC", color: "#004781" },
   { icon_name: "devicon:ngrok", name: "Ngrok", color: "#004781" },
 ];
